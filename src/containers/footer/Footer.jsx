@@ -3,8 +3,8 @@ import './footer.css'
 
 function Footer() {
   return (
-    <div>
-        Footer
+    <div className='footerContent'>
+        <p>Joel Gray - 2022</p>
     </div>
   )
 }
