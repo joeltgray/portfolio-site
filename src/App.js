@@ -1,25 +1,24 @@
-import React from 'react';
-import './App.css';
-import { Footer, Blog, Possibility, Features, Header } from './containers';
-import { CTA, Brand, Navbar, Main} from './components';
+import React from "react";
+import "./App.css";
+import { Footer, Blog, Possibility, Features, Header } from "./containers";
+import { CTA, Brand, Navbar, Main } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <div>
+    <div id="page-wrapper">
+      <div id="page-content">
         {/* <Navbar />
         <Header /> */}
-        <Footer /> 
+
         <Main />
-        
-      </div> 
-      
-      {/*<Brand />
+
+        {/*<Brand />
       <Features />
       <Possibility />
       <CTA />
       <Blog />*/}
-      
+      </div>
+      <Footer />
     </div>
   );
 }

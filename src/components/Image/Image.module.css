@@ -1,0 +1,11 @@
+.image {
+    overflow: hidden;
+}
+
+.image.--rounded {
+    border-radius: 100%;
+}
+
+.image img {
+    width: 100%;
+}

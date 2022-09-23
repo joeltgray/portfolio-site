@@ -1,12 +1,13 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
+
+import styles from './footer.module.css';
 
 function Footer() {
-  return (
-    <div className='footerContent'>
-        <p>Joel Gray - 2022</p>
-    </div>
-  )
+    return (
+        <div className={styles['footer']}>
+            <p>Joel Gray - {new Date().getFullYear()}</p>
+        </div>
+    );
 }
 
-export default Footer
+export default Footer;
