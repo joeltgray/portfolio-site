@@ -16,6 +16,11 @@ function Main() {
                 <p className="centered mb--heavy">Developer | Tinkerer | General wise guy</p>
                 <div className="links centered">
                     <h3 className="mb--light">
+                        <a href="https://graycode.ie" target="_blank" rel="noreferrer noopener">
+                            Blog
+                        </a>
+                    </h3>
+                    <h3 className="mb--light">
                         <a href="mailto:joel@joelgray.work">Contact Me</a>
                     </h3>
                     <h3 className="mb--light">
@@ -24,8 +29,8 @@ function Main() {
                         </a>
                     </h3>
                     <h3 className="mb--light">
-                        <a href="https://graycode.ie" target="_blank" rel="noreferrer noopener">
-                            Blog
+                        <a href="https://www.buymeacoffee.com/joeltgray" target="_blank" rel="noreferrer noopener">
+                            Buy Me a Coffee
                         </a>{' '}
                     </h3>
                 </div>
