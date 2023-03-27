@@ -7,7 +7,7 @@ import lwgrayart from '../../assets/lwgrayart.png'
 import pickapump from '../../assets/pickapump.png'
 import wizardingwords from '../../assets/wizardingwords.png'
 import Swiper, { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper';
-import 'swiper/css/bundle';
+
 
 
 const websites = [
