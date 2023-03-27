@@ -1,25 +1,18 @@
 import React from "react";
+import {Routes, Route } from 'react-router-dom';
+
 import "./App.css";
-import { Footer, Blog, Possibility, Features, Header } from "./containers";
-import { CTA, Brand, Navbar, Main } from "./components";
+
+import { Main, Portfolio } from "./components";
 
 function App() {
   return (
-    <div id="page-wrapper">
-      <div id="page-content">
-        {/* <Navbar />
-        <Header /> */}
-
-        <Main />
-
-        {/*<Brand />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />*/}
-      </div>
-      <Footer />
-    </div>
+          <div>
+            <Routes>
+              <Route path="/" element={ <Main /> } />
+              <Route path="/portfolio" element={ <Portfolio /> } />
+            </Routes>
+          </div>
   );
 }
 
