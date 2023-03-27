@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 import bgvideo from '../../assets/bgvideo.mp4';
-import pfp from '../../assets/pfp.jpeg'
+import pfp from '../../assets/pfp.jpeg';
 import { Image } from '../Image/Image';
 import { Footer } from "../../containers";
 
