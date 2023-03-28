@@ -6,8 +6,8 @@ img {
 
 
 #swiper-container {
-  width: 80%;
-  height: 700px;
+  width: 70%;
+  height: auto;
   margin: 0 auto;
   padding-top: 3%;
 }
@@ -19,7 +19,7 @@ img {
 
 .swiper-slide {
   flex-shrink: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
   padding: 20px;
 }
@@ -32,6 +32,11 @@ body {
   max-width: 100%;
   margin: auto;
   padding: 20px;
+}
+
+.swiper-pagination {
+  display: block;
+  z-index:auto;
 }
 
 .swiper-pagination-bullet-active {
