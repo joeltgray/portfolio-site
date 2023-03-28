@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+  }
+  
+.logos {
+    width: 15%;
+    height: auto;
+    padding: 15px;
+    margin-left: 30px;
+    min-width: 75px;
+}
+
+.header-links {
+    margin-left: auto; /* push the text to the right */
+    padding: 15px;
+}
+
+ul {
+    list-style: none; /* remove bullet points */
+    margin: 10px;
+    padding: 0;
+    display: inline-block; /* change block layout to inline-block */
+    margin-right: 30px; /* add space between list items */
+  }

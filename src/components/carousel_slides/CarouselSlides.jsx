@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Header } from '../../containers';
 import './carouselSlides.css'
 import '../main/main.css'
 import blankautophoto from '../../assets/blankautophoto.png'
@@ -50,25 +51,23 @@ const CarouselSlides = () => {
 
     return (
     <div id="page-wrapper">
+      {/* <Header /> */}
         <div id="page-content">
-            <div className="content --centered">
-                <div className='row centered'>
-                    <h1 >Completed Projects</h1>
+            <h1>Previous Work</h1>
+                <div className='centered'>
                         <div id="swiper-container" className="swiper-container">
                             <div className="swiper-wrapper">
                                     {websites.map((website, index) => (
                                         <div className='swiper-slide' key={index}> 
-                                            <a  href={website.url}> <h2 className="centered">{website.title}</h2> </a>
+                                            <a  href={website.url}> <h3 className="centered">{website.title}</h3> </a>
                                             <img className="centered" src={website.image} alt={website.title} />
                                             <div className="row centered" style={{padding: "2%"}}> <p className="centered">{website.info}</p> <a className="links" href={website.url}>View the site</a></div>
                                         </div>
                                     ))}
-                                    
                             </div>
-                            <div className="swiper-pagination row centered"></div>
+                            <div className="swiper-pagination"></div>
                         </div>
                 </div>
-            </div>
         </div>
     </div>
     );
