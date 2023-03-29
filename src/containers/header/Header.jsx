@@ -7,8 +7,8 @@ import logo from '../../assets/logo-nobg.png'
 function Header() {
   return (
     <div className='header'>
-        <div>
-          <a href="/">
+        <div className='centerpls'>
+          <a className='logo-link' href="/">
             <img className="logos" src={logo} alt="Site logo" />
           </a>
         </div>

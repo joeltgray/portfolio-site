@@ -3,6 +3,7 @@ import bgvideo from '../../assets/bgvideo.mp4';
 import { Header } from '../../containers';
 import CarouselSlides from '../carousel_slides/CarouselSlides';
 import './portfolio.css';
+import '../../App.css'
 
 function Portfolio() {
     return (

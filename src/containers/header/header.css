@@ -1,24 +1,70 @@
-.header {
-    display: flex;
+  /* media query for large screens */
+  @media (min-width: 768px) {
+  .header {
+      display: flex;
+      align-items: center; /* center items horizontally */
+    }
+    
+  .logos {  
+    padding: 15px;
+    min-width: 75px;
   }
-  
-.logos {
+
+  .logo-link {
+    display: inline-block;
+    margin-left: 30px;
     width: 15%;
     height: auto;
-    padding: 15px;
-    margin-left: 30px;
-    min-width: 75px;
-}
-
-.header-links {
-    margin-left: auto; /* push the text to the right */
-    padding: 15px;
-}
-
-ul {
-    list-style: none; /* remove bullet points */
-    margin: 10px;
-    padding: 0;
-    display: inline-block; /* change block layout to inline-block */
-    margin-right: 30px; /* add space between list items */
   }
+
+  .header-links {
+      margin-left: auto; /* push the text to the right */
+      padding: 15px;
+  }
+
+  ul {
+      list-style: none; /* remove bullet points */
+      margin: 10px;
+      padding: 0;
+      display: inline-block; /* change block layout to inline-block */
+      margin-right: 30px; /* add space between list items */
+    }
+}
+
+  /* media query for small screens */
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    flex-wrap: wrap; /* allow items to wrap onto multiple lines */
+    align-items: center; /* center items horizontally */
+    text-align: center;
+  }
+
+  .logos {
+    margin: 0 auto;
+  }
+
+  .logo-link {
+    display: inline-block;
+    width: 15%;
+  }
+  .header-links {
+    margin: 0; /* remove margin */
+  }
+
+  ul {
+    display: block; /* revert to block layout */
+    text-align: center; /* center list items */
+  }
+
+  .centerpls {
+    align-items: center; /* center items horizontally */
+    text-align: center;
+  }
+}
+
+.header h3 {
+  display: inline-block;
+  white-space: nowrap;
+}

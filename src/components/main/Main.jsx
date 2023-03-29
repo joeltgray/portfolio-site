@@ -32,7 +32,7 @@ function Main() {
                         </a>
                     </h3>
                     <h3 className="links mb--light">
-                        <a href="/portfolio" target="_blank" rel="noreferrer noopener">
+                        <a href="/portfolio">
                         Portfolio
                         </a>
                     </h3>

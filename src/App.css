@@ -10,6 +10,7 @@
 body {
     background: var(--color-bg);
     color: white;
+    overflow-x: hidden;
 }
 
 a {
@@ -52,3 +53,15 @@ img {
 .mb--heavy {
     margin-bottom: 32px;
 }
+
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+/* webkit-based browsers (e.g. Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 0.5em;
+    display: None;
+  }
+  
