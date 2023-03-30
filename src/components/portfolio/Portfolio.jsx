@@ -8,8 +8,6 @@ import '../../App.css'
 function Portfolio() {
     return (
         <div>
-            <Header />
-            {/*  TO DO Fix vertical height begining of title */}
             <video autoPlay muted loop src={bgvideo} type="video/mp4" id="homepage-background" />
             <CarouselSlides />
         </div>
