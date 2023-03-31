@@ -45,6 +45,11 @@ img {
 
 }
 
+#page-content-basic {
+    flex-grow: 1;
+}
+
+
 #page-parent-content {
     flex-grow: 1;
 

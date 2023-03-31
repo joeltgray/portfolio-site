@@ -9,8 +9,9 @@ import { Header } from '../../containers';
 function Main() {
     return (
         <div id="page-wrapper">
-            <Header />
+            
             <div id="page-content">
+            <Header />
                 <div className="content --centered">
                     <div>
                         <video autoPlay muted loop playsinline src={bgvideo} type="video/mp4" id="homepage-background" />

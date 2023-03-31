@@ -55,7 +55,7 @@ const CarouselSlides = () => {
             effect: 'coverflow',
             coverflowEffect: {
                 rotate: 50,
-                stretch: 0,
+                stretch: -50,
                 depth: 100,
                 modifier: 1,
                 slideShadows: true,
@@ -74,7 +74,7 @@ const CarouselSlides = () => {
     return (
         <div id="page-wrapper">
             <Header />
-            <div id="page-parent-content">
+            <div id="page-parent-content" className='page-parent-content'>
                 <h1>Previous Work</h1>
                         <div id="swiper-container" className="swiper-container">
                             <div className="swiper-wrapper">
