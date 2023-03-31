@@ -10,8 +10,8 @@ function Main() {
     return (
         <div id="page-wrapper">
             <div id="page-content">
+            <Header />
                 <div className="content --centered">
-                <Header />
                     <div>
                         <video autoPlay muted loop playsinline src={bgvideo} type="video/mp4" id="homepage-background" />
                         <div className="profile-picture">
