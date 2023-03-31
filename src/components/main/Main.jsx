@@ -13,7 +13,7 @@ function Main() {
             <div id="page-content">
                 <div className="content --centered">
                     <div>
-                        <video autoPlay muted loop src={bgvideo} type="video/mp4" id="homepage-background" />
+                        <video autoPlay muted loop playsinline src={bgvideo} type="video/mp4" id="homepage-background" />
                         <div className="profile-picture">
                             <Image url={pfp} isRounded={true} />
                         </div>

@@ -8,7 +8,7 @@ import '../../App.css'
 function Portfolio() {
     return (
         <div>
-            <video autoPlay muted loop src={bgvideo} type="video/mp4" id="homepage-background" />
+            <video autoPlay muted loop playsinline src={bgvideo} type="video/mp4" id="homepage-background" />
             <CarouselSlides />
         </div>
     );
