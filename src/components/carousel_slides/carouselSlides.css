@@ -1,4 +1,5 @@
 .swiper-container {
+  flex-grow: 1;
   width: 70%;
   height: auto;
   margin: 0 auto;
@@ -7,10 +8,13 @@
 }
 
 .swiper-wrapper {
+  flex-grow: 0;
   display: flex;
   flex-direction: row;
   transition-property: transform;
   max-width: 100%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 .swiper-slide {
@@ -107,23 +111,6 @@
 
 .swiper-slide-shadow-right {
   display: none;
-}
-
-.content-container button {
-  background-color: #0bb4aa; /* Background color */
-  color: white; /* Text color */
-  padding: 12px 24px; /* Padding */
-  border: none; /* Remove borders */
-  border-radius: 25px; /* Rounded edges */
-  font-size: 16px; /* Font size */
-  cursor: pointer; /* Add cursor on hover */
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25); /* Add shadow */
-  margin-bottom: 0;
-}
-
-/* Hover state */
-.content-container button:hover {
-  background-color: #09766f;
 }
 
 .page-parent-content h1, .page-content h1{

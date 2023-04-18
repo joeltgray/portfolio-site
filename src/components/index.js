@@ -2,3 +2,4 @@
 
 export { default as Main } from './main/Main';
 export { default as Portfolio } from './portfolio/Portfolio';
+export { default as PageNotFound } from './pageNotFound/PageNotFound';

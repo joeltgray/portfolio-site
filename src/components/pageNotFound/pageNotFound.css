@@ -1,0 +1,24 @@
+.desmond {
+    margin-bottom: 24px;
+    max-width: 30%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.fourofour {
+    flex-direction: column;
+    padding: 32px;
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.singleButton {
+    padding: 10px;
+}

@@ -3,16 +3,15 @@ import './main.css';
 import bgvideo from '../../assets/bgvideo.mp4';
 import pfp from '../../assets/pfp.jpeg';
 import { Image } from '../Image/Image';
-import { Footer } from '../../containers';
 import { Header } from '../../containers';
 
 function Main() {
     return (
         <div id="page-wrapper">
-            <div id="page-content">
             <Header />
+            <div id="page-content">
                 <div className="content --centered">
-                    <div>
+                    <div className="mainContent">
                         <video autoPlay muted loop playsinline src={bgvideo} type="video/mp4" id="homepage-background" />
                         <div className="profile-picture">
                             <Image url={pfp} isRounded={true} />

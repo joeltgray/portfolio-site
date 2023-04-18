@@ -48,3 +48,21 @@
 .links:hover {
     color: #09766f;
 }
+
+button {
+    background-color: #0bb4aa; /* Background color */
+    color: white; /* Text color */
+    padding: 12px 24px; /* Padding */
+    border: none; /* Remove borders */
+    border-radius: 25px; /* Rounded edges */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Add cursor on hover */
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25); /* Add shadow */
+    margin-bottom: 0;
+  }
+  
+  /* Hover state */
+button:hover {
+    background-color: #09766f;
+  }
+  
