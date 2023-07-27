@@ -119,6 +119,58 @@
   white-space: wrap;
 }
 
+.portfolio-container {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: stretch;
+}
+
+.project-card {
+  color: black;
+  flex: 0 0 48%; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-card img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  margin: auto;
+}
+
+.project-card h3 {
+  margin-top: 15px;
+}
+
+.project-card p {
+  margin: 5px 0;
+}
+
+@media (max-width: 767px) {
+  .project-card {
+    flex: 0 0 100%;
+  }
+}
+
+
 @media only screen and (max-width: 1000px) {
   .swiper-container {
     max-width: 100%;

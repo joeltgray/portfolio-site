@@ -12,3 +12,30 @@ body::-webkit-scrollbar {
 #page-wrapper  {
     overflow-x: hidden;
 }
+
+#portfolio-page-parent-content {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.self-align-center {
+  align-self: center;
+}
+
+.self-align-left {
+  align-self: left;
+}
+
+.text-align-left {
+  text-align: left!important;
+  align-self: left!important;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: left;
+}

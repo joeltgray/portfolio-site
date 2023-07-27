@@ -71,6 +71,23 @@ img {
     margin-bottom: 32px;
 }
 
+.mt {
+    margin-top: 16px;
+}
+
+.mt--light {
+    margin-top: 8px;
+}
+
+
+.mt--heavy {
+    margin-top: 32px!important;
+}
+
+.mt--super-heavy {
+    margin-top: 64px!important;
+}
+
 body {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
